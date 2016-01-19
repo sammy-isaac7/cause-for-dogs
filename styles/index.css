@@ -1,0 +1,94 @@
+
+body{
+	width: 90%;
+	background-color:#6794DA;
+	margin-right: 65px;
+
+}
+header{
+background-color:white;}
+header h1 {
+	text-align: center;
+	color: red;
+ font-size: 40px;
+
+}
+
+
+#logos{ 
+   width: 20%;
+   margin-top: 10px;
+   margin-right: 20px;
+   float: right;
+}
+header nav {
+	font-size: 24px;
+	display: inline-block;
+	margin-left: 65px;
+
+}
+header nav ul {
+	list-style: none;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 0 10px;
+	margin-top:20px;
+}
+.sidebar{
+	float:right;
+	width: 500px;
+    background-color: white;
+}
+.img {
+	width: 150px;
+    float: left;
+    border : 2px solid, blue;
+    display:inline-block;
+    vertical-align: top;
+}
+.img img {
+    width: 200px;
+    height: auto;
+
+}
+.img:hover {
+    border: 3px solid green;
+    height: auto;
+}
+.desc {
+	color: white;
+} 
+main h1{
+	color: white;
+	margin-left: 65px;
+}
+.section1 {
+	width: 400px;
+	color: white;
+	margin:65px; 
+}
+form{
+    background-color: white;
+    width: 250px;
+    color: red;
+    margin-left: 65px;
+    border: 1px solid red; 
+
+    }
+#footer {
+    margin: 50px 10px 0 0px;
+    padding: 5px 10px 0 0px;
+    border-top:#3B1052 solid 3px;
+}
+#footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    display: inline-block;
+
+
+
+
+}
