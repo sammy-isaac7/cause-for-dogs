@@ -1,30 +1,29 @@
 
 body{
-	width: 90%;
-	background-color:#6794DA;
-	margin-right: 65px;
-
+	   width: 90%;
+    background-color: #6794DA;
+    margin-left: 65px;
+  color: white;
 }
 header{
-background-color:white;}
+background-color:white;
+height: 150px;
+}
 header h1 {
 	text-align: center;
 	color: red;
- font-size: 40px;
+ padding-top: 30px;
 
 }
 
 
 #logos{ 
    width: 20%;
-   margin-top: 10px;
    margin-right: 20px;
    float: right;
 }
 header nav {
-	font-size: 24px;
-	display: inline-block;
-	margin-left: 65px;
+	font-size: 20px;
 
 }
 header nav ul {
@@ -36,16 +35,17 @@ header nav ul li{
 	margin-top:20px;
 }
 .sidebar{
-	float:right;
-	width: 500px;
-    background-color: white;
+  padding-top: 40px;  
+  float:right;
+  width: 400px;
+  margin-left: 65px;
 }
 .img {
-	width: 150px;
-    float: left;
-    border : 2px solid, blue;
+  width: 150px;
+  float: left;
+  margin: 10px;
+    border: 1px solid clear;
     display:inline-block;
-    vertical-align: top;
 }
 .img img {
     width: 200px;
@@ -57,7 +57,9 @@ header nav ul li{
     height: auto;
 }
 .desc {
-	color: white;
+  color: white;
+    padding: 15px;
+
 } 
 main h1{
 	color: white;
@@ -72,23 +74,18 @@ form{
     background-color: white;
     width: 250px;
     color: red;
-    margin-left: 65px;
     border: 1px solid red; 
 
     }
 #footer {
-    margin: 50px 10px 0 0px;
+    margin: 10px 10px 0 0px;
     padding: 5px 10px 0 0px;
-    border-top:#3B1052 solid 3px;
+    border-top:white solid 3px;
+    
 }
 #footer ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right;
-    display: inline-block;
-
-
-
-
+  float: right;
+  list-style: none;
+  margin: 5px;
+  display: inline-block;
 }

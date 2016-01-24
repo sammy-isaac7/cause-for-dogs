@@ -1,19 +1,19 @@
 body{
-	background-color: #6794DA;
-	width: 90%;
-	margin-left: 65px;
-	color: white;
+  background-color: #6794DA;
+  width: 90%;
+  margin-left: 65px;
+  color: white;
 
 }
 
 header{
-	width: 100%;
-	height: 150px;
+  width: 100%;
+  height: 150px;
 background-color:white;}
 header h1 {
-	margin-bottom: 10px;
-	text-align: center;
-	color: red;
+padding-top: 30px;
+  text-align: center;
+  color: red;
  font-size: 35px;
 
 }
@@ -24,32 +24,29 @@ header h1 {
    float: right;
 }
 header nav {
-	font-size: 18px;
-	float: left;
-	display: inline-block;
-
+  font-size: 20px;
 }
 header nav ul {
-	list-style: none;
+  list-style: none;
 }
 header nav ul li{
-	display: inline-block;
-	padding: 0 10px;
-	margin-top:20px;
+  display: inline-block;
+  padding: 0 10px;
+  margin-top:20px;
 }
 .right{
   float: right;
   margin: 10px;
 }
 .sidebar{
-	float:right;
-	width: 350px;
-	margin-left: 65px;
+  float:right;
+  width: 350px;
+  margin-left: 65px;
 }
 .img {
-	width: 150px;
-	float: left;
-	margin: 5px;
+  width: 150px;
+  float: left;
+  margin: 5px;
     border: 1px solid clear;
     display:inline-block;
     vertical-align: top;
@@ -64,7 +61,7 @@ header nav ul li{
     height: auto;
 }
 .desc {
-	color: white;
+  color: white;
     padding: 15px;
     text-align: center;
 } 
@@ -79,18 +76,17 @@ form{
   float: left;
   clear: both;
   width:100%;
-    margin: 50px 10px 0 0px;
+    margin: 10px 10px 0 0px;
     padding: 5px 10px 0 0px;
-    border-top: #3B1052 solid 3px;
+    border-top: white solid 3px;
 }
 #footer ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
     float: right;
     display: inline-block;
 }
 .wrapper_form {
+  color: red;
   position: relative; 
   display: inline-block;
 }
